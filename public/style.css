@@ -1,0 +1,116 @@
+body{
+    background-color: #F5DEB3;
+    text-align: center;
+}
+
+.txt1{
+    margin: 20px 80px 0px 80px;
+    text-align: center;
+    font-family: "sans-serif";
+}
+
+.shadow {
+    filter: drop-shadow(12px -5px 9px black);
+    margin-bottom: 20px;
+}
+.container1{
+    background: #030321;
+    text-align: center;
+    width: 50%;
+    margin-bottom: 100px;
+}
+
+
+/*-------------------BEM VINDO AO ROBÔ SIMULATOR------------------*/
+.texto-principal {
+    font: 400 1em/1.5 "Neuton";
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    display: inline-block;
+    border: 4px double rgb(0 110 171);
+    border-width: 4px 0;
+    padding: 1.5em 0em;
+    /*position: absolute;*/
+    top: 18%;
+    /*left: 50%;*/
+    width: 40em;
+    color: rgb(12, 100, 225);
+}
+span {
+    font: 700 4em/1 "Oswald", sans-serif;
+    letter-spacing: 0;
+    padding: 0.25em 0 0.325em;
+    display: block;
+    margin: 0 auto;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+
+    /* Clip do background */
+
+    background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+    -webkit-background-clip: text;
+
+
+    /* Background de imagem animado */
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: aitf 80s linear infinite;
+
+    /* Ativando a aceleração do hardware para animações rapidas */
+
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+
+/* Animando a imagem */
+
+@-webkit-keyframes aitf {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+/*-------------------------------------------------------------------*/
+
+nav{
+    background-color: #FF8C00;
+}
+.transicao{
+    transition: all .4s ease-in-out;
+}
+.transicao:hover{
+    top:-4px;box-shadow:0 4px 3px #999;
+    left: -4px;box-shadow:0 4px 3px #999;
+}
+card{
+    background-color: #FF8C00;
+}
+.txt1 > p{
+    font-size: 30px;
+    margin: 0 100px 0 100px;
+}
+.txt1 > h3{
+    font-weight: bold;
+}
+.expl{
+    justify-items: center;
+}
+.Alinhamento-cards{
+    display: inline-block;
+    padding: 40px;
+    padding-top: 100px;
+}
+#idindex{
+    margin: 40px 0 0;
+}
+
+@media (min-width: 576px) {
+    #nusei {
+        height: calc(130vh - 280px);
+        overflow: auto;
+    }
+
+}
+
